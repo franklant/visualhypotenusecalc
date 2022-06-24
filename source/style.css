@@ -1,0 +1,13 @@
+/*----------------------------------
+//  Visual Hypotenuse Calculator CSS
+//--------------------------------*/
+
+html {
+    text-align: center;
+    margin: auto;
+}
+
+canvas {
+    border-style: solid;
+    border-color: black;
+}

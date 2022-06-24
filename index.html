@@ -1,0 +1,32 @@
+<!-----------------------------------
+    Franklan Taylor
+    Visual Hypotenuse Calculator
+    Created Jun 24th, 2022
+    *
+     Solve for the hypotenuse 
+     and get a visual representation
+     of the triangle
+    *
+------------------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/hypo-icon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source/style.css">
+    <title>Hypotenuse Calculartor</title>
+</head>
+<body>
+    <div class="textboxContainer">
+        <input id="legA" type="text" placeholder="a leg: "></input>
+        <input id="legB" type="text" placeholder="b leg: "></input>
+        <button id="solve" type="button">Solve</button>
+    </div>
+    <canvas id="myCanvas" width="450" height="450"></canvas>
+    <br><label id="myHypo"></label>
+    <script src="source/index.js"></script>
+</body>
+</html>
