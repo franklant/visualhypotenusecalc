@@ -5,4 +5,4 @@ Find the hypotenuse and get a visual representation of the triangle
 
 # What I Learned:
 - Drawing triangles in JavaScript
-- Using math to manipulate size of triangles
+- Using math to manipulate the size of triangles
